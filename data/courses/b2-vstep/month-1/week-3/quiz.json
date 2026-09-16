@@ -1,0 +1,28 @@
+{
+  "week": 3,
+  "sets": [
+    {
+      "id": "set-A",
+      "title": "Ôn tập Tuần 3 — Bộ A",
+      "questions": [
+        { "id": "w3-b1-1", "type": "fill-blank", "skill": "grammar", "tags": ["be-going-to"], "prompt": "Look at those dark clouds! It ___ rain.", "answer": "is going to", "explanation": "Dự đoán dựa trên bằng chứng hiện tại (mây đen) → be going to." },
+        { "id": "w3-b1-2", "type": "fill-blank", "skill": "grammar", "tags": ["future-will"], "prompt": "\"The bag is heavy.\" — \"I ___ help you carry it.\"", "answer": "will", "explanation": "Quyết định tức thời ngay lúc nói → will." },
+        { "id": "w3-b1-3", "type": "fill-blank", "skill": "grammar", "tags": ["be-going-to"], "prompt": "We ___ travel to Hue next month; we've already booked.", "answer": "are going to", "explanation": "Kế hoạch/dự định đã có từ trước (đã đặt vé) → be going to." },
+        { "id": "w3-b1-4", "type": "fill-blank", "skill": "grammar", "tags": ["future-will"], "prompt": "I think robots ___ replace many jobs.", "answer": "will", "explanation": "Dự đoán chủ quan sau \"I think\" → will." },
+        { "id": "w3-b2-1", "type": "fill-blank", "skill": "grammar", "tags": ["present-simple-future"], "prompt": "The train (leave) ___ at 6:30 tomorrow.", "answer": "leaves", "explanation": "Lịch trình cố định (giờ tàu chạy) → hiện tại đơn chỉ tương lai." },
+        { "id": "w3-b2-2", "type": "fill-blank", "skill": "grammar", "tags": ["present-continuous-future"], "prompt": "I (meet) ___ my friend at the airport at 9 — it's arranged.", "answer": "am meeting", "explanation": "Cuộc hẹn cá nhân đã sắp xếp cố định (có giờ, địa điểm) → hiện tại tiếp diễn chỉ tương lai." },
+        { "id": "w3-b2-3", "type": "fill-blank", "skill": "grammar", "tags": ["future-will", "be-going-to"], "prompt": "Maybe I (go) ___ to Da Lat next year.", "answer": "will go (am going to go)", "explanation": "\"Maybe\" đi với dự đoán mang tính chủ quan/chưa chắc chắn → will (hoặc be going to nếu đã có ý định)." },
+        { "id": "w3-b2-4", "type": "fill-blank", "skill": "grammar", "tags": ["present-simple-future"], "prompt": "Our flight (depart) ___ at noon according to the schedule.", "answer": "departs", "explanation": "\"According to the schedule\" → lịch trình cố định → hiện tại đơn chỉ tương lai." },
+        { "id": "w3-b3-1", "type": "fill-blank", "skill": "vocabulary", "options": ["itinerary", "delay", "luggage", "traffic jam", "book"], "prompt": "There was a long ___ because of an accident.", "answer": "delay", "explanation": "delay = sự trì hoãn." },
+        { "id": "w3-b3-2", "type": "fill-blank", "skill": "vocabulary", "options": ["itinerary", "delay", "luggage", "traffic jam", "book"], "prompt": "Please check your ___ before the flight.", "answer": "itinerary", "explanation": "itinerary = lịch trình chuyến đi." },
+        { "id": "w3-b3-3", "type": "fill-blank", "skill": "vocabulary", "options": ["itinerary", "delay", "luggage", "traffic jam", "book"], "prompt": "I'll ___ the tickets tonight.", "answer": "book", "explanation": "book = đặt (vé)." },
+        { "id": "w3-b3-4", "type": "fill-blank", "skill": "vocabulary", "options": ["itinerary", "delay", "luggage", "traffic jam", "book"], "prompt": "We were stuck in a ___ for an hour.", "answer": "traffic jam", "explanation": "traffic jam = kẹt xe." },
+        { "id": "w3-b3-5", "type": "fill-blank", "skill": "vocabulary", "options": ["itinerary", "delay", "luggage", "traffic jam", "book"], "prompt": "Don't leave your ___ unattended.", "answer": "luggage", "explanation": "luggage = hành lý." },
+        { "id": "w3-b4-1", "type": "error-correction", "skill": "grammar", "tags": ["future-will"], "sentence": "I will to visit my family next week.", "answer": "I will visit my family next week.", "explanation": "Sau will là động từ nguyên thể, không dùng \"to\"." },
+        { "id": "w3-b4-2", "type": "error-correction", "skill": "grammar", "tags": ["present-simple-future"], "sentence": "The bus is leaving at 7 every day.", "answer": "The bus leaves at 7 every day.", "explanation": "Lịch trình lặp lại hằng ngày → dùng hiện tại đơn, không dùng hiện tại tiếp diễn." },
+        { "id": "w3-b4-3", "type": "error-correction", "skill": "grammar", "tags": ["be-going-to"], "sentence": "Look! It will rain.", "answer": "Look! It's going to rain.", "explanation": "Dự đoán dựa trên bằng chứng nhìn thấy ngay lúc nói → dùng be going to, không dùng will." }
+      ]
+    }
+  ],
+  "practiceTasksRef": "theory.json#practiceTasks"
+}

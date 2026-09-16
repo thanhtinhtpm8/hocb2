@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "learn-b2-site",
+      "runtimeExecutable": "powershell.exe",
+      "runtimeArgs": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "D:\\learn_b2\\.claude\\serve.ps1"],
+      "port": 8888
+    }
+  ]
+}

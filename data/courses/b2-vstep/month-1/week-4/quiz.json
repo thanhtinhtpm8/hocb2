@@ -1,0 +1,34 @@
+{
+  "week": 4,
+  "sets": [
+    {
+      "id": "set-A",
+      "title": "Ôn tập Tuần 4 — Bộ A",
+      "questions": [
+        { "id": "w4-b1-1", "type": "fill-blank", "skill": "grammar", "tags": ["quantifiers"], "prompt": "There isn’t ___ milk in the fridge.", "answer": "any", "explanation": "Câu phủ định + danh từ không đếm được (milk) → dùng any." },
+        { "id": "w4-b1-2", "type": "fill-blank", "skill": "grammar", "tags": ["quantifiers"], "prompt": "How ___ eggs do we need?", "answer": "many", "explanation": "Câu hỏi về số lượng với danh từ đếm được số nhiều (eggs) → dùng many." },
+        { "id": "w4-b1-3", "type": "fill-blank", "skill": "grammar", "tags": ["quantifiers"], "prompt": "I have ___ friends who cook well.", "answer": "many", "explanation": "Danh từ đếm được số nhiều (friends) trong câu khẳng định → many (cũng có thể dùng a lot of)." },
+        { "id": "w4-b1-4", "type": "fill-blank", "skill": "grammar", "tags": ["quantifiers"], "prompt": "Is there ___ sugar left?", "answer": "any", "explanation": "Câu hỏi + danh từ không đếm được (sugar) → dùng any." },
+        { "id": "w4-b1-5", "type": "fill-blank", "skill": "grammar", "tags": ["quantifiers"], "prompt": "She doesn’t drink ___ coffee.", "answer": "much", "explanation": "Câu phủ định + danh từ không đếm được (coffee) → dùng much." },
+        { "id": "w4-b2-1", "type": "fill-blank", "skill": "grammar", "tags": ["articles"], "prompt": "I had ___ apple and ___ banana for breakfast.", "answer": "an / a", "explanation": "apple bắt đầu bằng nguyên âm → an; banana bắt đầu bằng phụ âm → a; cả hai đều là danh từ đếm được số ít nhắc lần đầu." },
+        { "id": "w4-b2-2", "type": "fill-blank", "skill": "grammar", "tags": ["articles"], "prompt": "___ sun gives us energy.", "answer": "The", "explanation": "the dùng cho vật duy nhất (the sun)." },
+        { "id": "w4-b2-3", "type": "fill-blank", "skill": "grammar", "tags": ["articles"], "prompt": "I don’t like ___ fast food.", "answer": "(zero)", "explanation": "fast food là danh từ không đếm được mang nghĩa chung → không dùng mạo từ (zero article)." },
+        { "id": "w4-b2-4", "type": "fill-blank", "skill": "grammar", "tags": ["articles"], "prompt": "She is ___ honest person.", "answer": "an", "explanation": "honest bắt đầu bằng âm nguyên âm (h câm) → dùng an." },
+        { "id": "w4-b2-5", "type": "fill-blank", "skill": "grammar", "tags": ["articles"], "prompt": "Can you pass ___ salt, please?", "answer": "the", "explanation": "salt ở đây đã được xác định (lọ muối cụ thể trên bàn, cả người nói và người nghe đều biết) → dùng the." },
+        { "id": "w4-b3-1", "type": "fill-blank", "skill": "grammar", "tags": ["quantifiers"], "prompt": "I need ___ sugar for the coffee.", "answer": "a little", "explanation": "sugar là danh từ không đếm được, ý dương (một chút) → a little." },
+        { "id": "w4-b3-2", "type": "fill-blank", "skill": "grammar", "tags": ["quantifiers"], "prompt": "There are ___ apples in the basket.", "answer": "a few", "explanation": "apples là danh từ đếm được số nhiều, ý dương (một vài) → a few." },
+        { "id": "w4-b3-3", "type": "fill-blank", "skill": "grammar", "tags": ["quantifiers"], "prompt": "He has ___ money, so he can’t buy it. (ý âm)", "answer": "little", "explanation": "money là danh từ không đếm được, ý âm (rất ít, gần như không) → little." },
+        { "id": "w4-b3-4", "type": "fill-blank", "skill": "grammar", "tags": ["quantifiers"], "prompt": "Very ___ people came to the meeting. (ý âm)", "answer": "few", "explanation": "people là danh từ đếm được số nhiều, ý âm (rất ít, gần như không) → few." },
+        { "id": "w4-b4-1", "type": "error-correction", "skill": "grammar", "tags": ["countable-uncountable-nouns"], "sentence": "I need an information.", "answer": "I need some information.", "explanation": "information là danh từ không đếm được, không có số ít với 'an' → dùng some information." },
+        { "id": "w4-b4-2", "type": "error-correction", "skill": "grammar", "tags": ["countable-uncountable-nouns"], "sentence": "She gave me a good advice.", "answer": "She gave me some good advice (a good piece of advice).", "explanation": "advice là danh từ không đếm được, không dùng 'a' trực tiếp → dùng some advice hoặc a piece of advice." },
+        { "id": "w4-b4-3", "type": "error-correction", "skill": "grammar", "tags": ["countable-uncountable-nouns"], "sentence": "There are many furnitures in the room.", "answer": "There is much furniture (a lot of furniture) in the room.", "explanation": "furniture là danh từ không đếm được, không có số nhiều và chia động từ số ít → is much/a lot of furniture." },
+        { "id": "w4-b5-1", "type": "fill-blank", "skill": "vocabulary", "options": ["balanced diet", "workout", "cut down on", "nutritious", "home-cooked"], "prompt": "Fruit and vegetables are ___.", "answer": "nutritious", "explanation": "nutritious = bổ dưỡng." },
+        { "id": "w4-b5-2", "type": "fill-blank", "skill": "vocabulary", "options": ["balanced diet", "workout", "cut down on", "nutritious", "home-cooked"], "prompt": "I do a short ___ every morning.", "answer": "workout", "explanation": "workout = buổi tập." },
+        { "id": "w4-b5-3", "type": "fill-blank", "skill": "vocabulary", "options": ["balanced diet", "workout", "cut down on", "nutritious", "home-cooked"], "prompt": "I should ___ sugar.", "answer": "cut down on", "explanation": "cut down on = giảm bớt." },
+        { "id": "w4-b5-4", "type": "fill-blank", "skill": "vocabulary", "options": ["balanced diet", "workout", "cut down on", "nutritious", "home-cooked"], "prompt": "A ___ keeps you healthy.", "answer": "balanced diet", "explanation": "balanced diet = chế độ ăn cân bằng." },
+        { "id": "w4-b5-5", "type": "fill-blank", "skill": "vocabulary", "options": ["balanced diet", "workout", "cut down on", "nutritious", "home-cooked"], "prompt": "I prefer ___ meals to fast food.", "answer": "home-cooked", "explanation": "home-cooked = tự nấu ở nhà." }
+      ]
+    }
+  ],
+  "practiceTasksRef": "theory.json#practiceTasks"
+}

@@ -1,0 +1,209 @@
+{
+  "siteTitle": "Lộ Trình B1 → B2 VSTEP",
+  "courses": [
+    {
+      "id": "b2-vstep",
+      "title": "B1 → B2 VSTEP trong 16 tuần",
+      "description": "Mục tiêu: đạt VSTEP bậc 4 (B2). 1–2 giờ/ngày, 6 ngày học + 1 ngày ôn mỗi tuần.",
+      "totalWeeks": 16,
+      "months": [
+        {
+          "id": "month-1",
+          "index": 1,
+          "title": "Tháng 1 — Củng cố nền tảng B1",
+          "summary": "Lấp lỗ hổng các thì, danh từ/mạo từ; xây thói quen học đều; làm quen tổng thể bài thi VSTEP.",
+          "goalScore": "TB ~4.5–5.0",
+          "weeks": [
+            {
+              "id": "week-1",
+              "index": 1,
+              "title": "Các thì hiện tại & Bản thân – Gia đình – Thói quen",
+              "grammarFocus": "Các thì hiện tại (đơn / tiếp diễn / hoàn thành / hoàn thành tiếp diễn)",
+              "vocabFocus": "Bản thân, gia đình & thói quen hằng ngày",
+              "vstepFocus": "Tổng quan bài thi VSTEP + Listening Part 1",
+              "status": "ready",
+              "path": "courses/b2-vstep/month-1/week-1"
+            },
+            {
+              "id": "week-2",
+              "index": 2,
+              "title": "Các thì quá khứ & Công việc – Nghề nghiệp",
+              "grammarFocus": "Các thì quá khứ (đơn / tiếp diễn / hoàn thành) + used to / would",
+              "vocabFocus": "Công việc & nghề nghiệp",
+              "vstepFocus": "Reading Part 1–2",
+              "status": "ready",
+              "path": "courses/b2-vstep/month-1/week-2"
+            },
+            {
+              "id": "week-3",
+              "index": 3,
+              "title": "Diễn đạt tương lai & Du lịch – Giao thông",
+              "grammarFocus": "Will, be going to, hiện tại tiếp diễn chỉ tương lai",
+              "vocabFocus": "Du lịch & giao thông",
+              "vstepFocus": "Writing Task 1 (email/thư)",
+              "status": "ready",
+              "path": "courses/b2-vstep/month-1/week-3"
+            },
+            {
+              "id": "week-4",
+              "index": 4,
+              "title": "Danh từ – Mạo từ – Lượng từ & Ăn uống – Lối sống",
+              "grammarFocus": "Danh từ đếm/không đếm, mạo từ a/an/the, lượng từ",
+              "vocabFocus": "Ăn uống & lối sống lành mạnh",
+              "vstepFocus": "Speaking Part 1 — KIỂM TRA TỔNG HỢP THÁNG 1",
+              "status": "ready",
+              "path": "courses/b2-vstep/month-1/week-4"
+            }
+          ]
+        },
+        {
+          "id": "month-2",
+          "index": 2,
+          "title": "Tháng 2 — Mở rộng & phản xạ",
+          "summary": "So sánh, điều kiện, bị động, mệnh đề quan hệ; mở rộng vốn từ; luyện phản xạ nghe-nói.",
+          "goalScore": "TB ~5.0–5.5",
+          "weeks": [
+            {
+              "id": "week-5",
+              "index": 5,
+              "title": "So sánh & Nhà ở – Môi trường sống",
+              "grammarFocus": "So sánh hơn/nhất, as...as, so sánh kép (the more... the more)",
+              "vocabFocus": "Nhà ở & môi trường sống",
+              "vstepFocus": "Listening Part 2",
+              "status": "coming-soon",
+              "path": "courses/b2-vstep/month-2/week-5"
+            },
+            {
+              "id": "week-6",
+              "index": 6,
+              "title": "Câu điều kiện 0-1-2 & Công nghệ – Internet",
+              "grammarFocus": "Câu điều kiện loại 0, 1, 2",
+              "vocabFocus": "Công nghệ & Internet",
+              "vstepFocus": "Reading — gap-fill & true/false/not given",
+              "status": "coming-soon",
+              "path": "courses/b2-vstep/month-2/week-6"
+            },
+            {
+              "id": "week-7",
+              "index": 7,
+              "title": "Câu bị động & Giáo dục – Học tập",
+              "grammarFocus": "Câu bị động (hiện tại/quá khứ/tương lai) + bị động với động từ khuyết thiếu",
+              "vocabFocus": "Giáo dục & học tập",
+              "vstepFocus": "Writing Task 1 nâng cao (thư trang trọng / khiếu nại)",
+              "status": "coming-soon",
+              "path": "courses/b2-vstep/month-2/week-7"
+            },
+            {
+              "id": "week-8",
+              "index": 8,
+              "title": "Mệnh đề quan hệ & Môi trường – Thiên nhiên",
+              "grammarFocus": "Mệnh đề quan hệ xác định & không xác định (who/which/that/where/whose)",
+              "vocabFocus": "Môi trường & thiên nhiên",
+              "vstepFocus": "Speaking Part 2 — KIỂM TRA TỔNG HỢP THÁNG 2",
+              "status": "coming-soon",
+              "path": "courses/b2-vstep/month-2/week-8"
+            }
+          ]
+        },
+        {
+          "id": "month-3",
+          "index": 3,
+          "title": "Tháng 3 — Nâng cao",
+          "summary": "Điều kiện loại 3, tường thuật, modal suy đoán, liên kết ý; đọc học thuật + viết Task 1 & 2; nghe bài giảng.",
+          "goalScore": "TB ~5.5–6.0",
+          "weeks": [
+            {
+              "id": "week-9",
+              "index": 9,
+              "title": "Điều kiện loại 3 & Tài chính – Mua sắm",
+              "grammarFocus": "Câu điều kiện loại 3 & hỗn hợp; wish / if only",
+              "vocabFocus": "Tài chính & mua sắm",
+              "vstepFocus": "Listening Part 3 (bài giảng/độc thoại học thuật)",
+              "status": "coming-soon",
+              "path": "courses/b2-vstep/month-3/week-9"
+            },
+            {
+              "id": "week-10",
+              "index": 10,
+              "title": "Câu tường thuật & Truyền thông – Giải trí",
+              "grammarFocus": "Câu tường thuật (kể/hỏi/mệnh lệnh) + lùi thì (backshift)",
+              "vocabFocus": "Truyền thông & giải trí",
+              "vstepFocus": "Reading — bài học thuật dài, matching heading & suy luận",
+              "status": "coming-soon",
+              "path": "courses/b2-vstep/month-3/week-10"
+            },
+            {
+              "id": "week-11",
+              "index": 11,
+              "title": "Modal suy đoán & Sức khỏe – Y tế",
+              "grammarFocus": "Modals suy đoán (must/might/can't + have + V3) + gerund và to-infinitive",
+              "vocabFocus": "Sức khỏe & y tế",
+              "vstepFocus": "Writing Task 2 (bài luận) — mở bài & phát triển thân bài",
+              "status": "coming-soon",
+              "path": "courses/b2-vstep/month-3/week-11"
+            },
+            {
+              "id": "week-12",
+              "index": 12,
+              "title": "Từ nối & Xã hội – Các vấn đề xã hội",
+              "grammarFocus": "Từ nối & liên kết ý (however, therefore, although, despite, moreover...) + đảo ngữ cơ bản",
+              "vocabFocus": "Xã hội & các vấn đề xã hội",
+              "vstepFocus": "Speaking Part 3 — KIỂM TRA TỔNG HỢP THÁNG 3",
+              "status": "coming-soon",
+              "path": "courses/b2-vstep/month-3/week-12"
+            }
+          ]
+        },
+        {
+          "id": "month-4",
+          "index": 4,
+          "title": "Tháng 4 — Luyện đề & thi thử",
+          "summary": "Luyện đề full theo thời gian, thi thử VSTEP hoàn chỉnh, hoàn thiện kỹ năng yếu nhất, chiến thuật phòng thi.",
+          "goalScore": "TB ≥ 6.0 (ĐẠT B2)",
+          "weeks": [
+            {
+              "id": "week-13",
+              "index": 13,
+              "title": "Ôn tổng hợp & Việc làm – Phỏng vấn",
+              "grammarFocus": "Ôn tổng hợp ngữ pháp trọng yếu + collocations & phrasal verbs thông dụng",
+              "vocabFocus": "Việc làm & phỏng vấn (Careers)",
+              "vstepFocus": "LUYỆN ĐỀ Listening + Reading full theo đúng thời gian",
+              "status": "coming-soon",
+              "path": "courses/b2-vstep/month-4/week-13"
+            },
+            {
+              "id": "week-14",
+              "index": 14,
+              "title": "Câu phức học thuật & Khoa học – Khám phá",
+              "grammarFocus": "Câu phức học thuật, paraphrase & cohesion",
+              "vocabFocus": "Khoa học & khám phá",
+              "vstepFocus": "LUYỆN ĐỀ Writing full (Task 1 + Task 2) + tự chấm theo rubric",
+              "status": "coming-soon",
+              "path": "courses/b2-vstep/month-4/week-14"
+            },
+            {
+              "id": "week-15",
+              "index": 15,
+              "title": "Thành ngữ & Văn hóa – Toàn cầu hóa",
+              "grammarFocus": "Thành ngữ (idioms) thông dụng + phân biệt văn phong trang trọng/thân mật",
+              "vocabFocus": "Văn hóa & toàn cầu hóa",
+              "vstepFocus": "LUYỆN ĐỀ Speaking full 3 phần + quay video tự đánh giá",
+              "status": "coming-soon",
+              "path": "courses/b2-vstep/month-4/week-15"
+            },
+            {
+              "id": "week-16",
+              "index": 16,
+              "title": "Rà soát toàn bộ & Ôn tập tổng hợp",
+              "grammarFocus": "Rà soát toàn bộ ngữ pháp — sửa lỗi thường gặp; chiến thuật phòng thi",
+              "vocabFocus": "Ôn tập tổng hợp tất cả chủ đề",
+              "vstepFocus": "THI THỬ FULL VSTEP (4 kỹ năng) — KIỂM TRA TỔNG HỢP THÁNG 4",
+              "status": "coming-soon",
+              "path": "courses/b2-vstep/month-4/week-16"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

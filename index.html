@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lộ Trình B1 → B2 VSTEP</title>
+<meta name="theme-color" content="#2f6fed">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📘</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app-shell">
+
+  <header class="topbar">
+    <button class="icon-btn" id="sidebarToggle" aria-label="Mở menu" title="Menu">☰</button>
+    <a href="#/" class="brand">📘 <span>B1 → B2 VSTEP</span></a>
+    <div class="topbar-spacer"></div>
+    <div class="streak-badge" id="streakBadge" title="Chuỗi ngày học">🔥 <span id="streakCount">0</span></div>
+    <button class="icon-btn" id="themeToggle" aria-label="Đổi giao diện sáng/tối" title="Sáng/Tối">🌓</button>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar" id="sidebar" aria-label="Điều hướng chính">
+      <div id="sidebarContent"><!-- filled by JS: month/week tree --></div>
+    </nav>
+
+    <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+    <main class="content" id="app" tabindex="-1">
+      <!-- route views render here -->
+    </main>
+  </div>
+
+  <nav class="bottom-nav" aria-label="Điều hướng dưới">
+    <a href="#/" data-nav="home"><span class="bn-icon">🏠</span><span>Học</span></a>
+    <a href="#/vocab" data-nav="vocab"><span class="bn-icon">🗂️</span><span>Từ vựng</span></a>
+    <a href="#/quiz" data-nav="quiz"><span class="bn-icon">📝</span><span>Bài tập</span></a>
+    <a href="#/progress" data-nav="progress"><span class="bn-icon">📈</span><span>Tiến độ</span></a>
+  </nav>
+
+</div>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+{
+  "week": 2,
+  "title": "Các thì quá khứ (& used to / would) & chủ đề Công việc – Nghề nghiệp",
+  "goals": [
+    "Dùng đúng quá khứ đơn, quá khứ tiếp diễn, quá khứ hoàn thành và used to / would.",
+    "Kể lại sự việc trong quá khứ; nói/viết về công việc.",
+    "Nắm ~40 từ vựng chủ đề nghề nghiệp."
+  ],
+  "grammar": [
+    {
+      "id": "past-simple",
+      "title": "1. Quá khứ đơn (Past Simple)",
+      "formulaTable": {
+        "headers": ["Loại câu", "Công thức", "Ví dụ"],
+        "rows": [
+          ["Khẳng định", "S + V2", "I joined CPCIT in 2019."],
+          ["Phủ định", "S + did not + V", ""],
+          ["Nghi vấn", "Did + S + V?", ""]
+        ]
+      },
+      "usage": [
+        "Hành động đã hoàn tất tại thời điểm xác định trong quá khứ: I joined CPCIT in 2019."
+      ],
+      "signals": ["yesterday", "last week/month/year", "… ago", "in 2020", "when I was young"],
+      "notes": [
+        "Động từ có quy tắc thêm -ed (work → worked); bất quy tắc phải học thuộc (go → went, take → took, buy → bought).",
+        "Trong câu phủ định/nghi vấn, did đã mang dấu quá khứ nên động từ chính về nguyên thể."
+      ],
+      "commonMistakes": [
+        { "wrong": "Did you went?", "right": "Did you go?" }
+      ]
+    },
+    {
+      "id": "past-continuous",
+      "title": "2. Quá khứ tiếp diễn (Past Continuous)",
+      "formulaTable": {
+        "headers": ["Công thức"],
+        "rows": [["S + was/were + V-ing"]]
+      },
+      "usage": [
+        "Hành động đang diễn ra tại một thời điểm trong quá khứ, thường bị hành động khác (quá khứ đơn) xen vào: I was working when the power went off.",
+        "Hai hành động song song: While she was cooking, he was cleaning."
+      ],
+      "signals": [],
+      "notes": [
+        "Kết hợp when / while: when + quá khứ đơn (hành động xen vào); while + quá khứ tiếp diễn (hành động nền)."
+      ],
+      "commonMistakes": []
+    },
+    {
+      "id": "past-perfect",
+      "title": "3. Quá khứ hoàn thành (Past Perfect)",
+      "formulaTable": {
+        "headers": ["Công thức"],
+        "rows": [["S + had + V3"]]
+      },
+      "usage": [
+        "Hành động xảy ra trước một hành động/thời điểm khác trong quá khứ: When I arrived, the meeting had already started. (họp bắt đầu trước khi tôi đến)."
+      ],
+      "signals": ["before", "after", "by the time", "already", "when"],
+      "notes": [],
+      "commonMistakes": []
+    },
+    {
+      "id": "used-to-would",
+      "title": "4. used to / would (thói quen trong quá khứ)",
+      "formulaTable": {
+        "headers": ["Cấu trúc", "Cách dùng", "Ví dụ"],
+        "rows": [
+          ["used to + V (nguyên thể)", "thói quen/trạng thái trong quá khứ nay không còn", "I used to work overtime a lot."],
+          ["would + V", "chỉ hành động lặp lại trong quá khứ (không dùng cho trạng thái)", "Every summer, we would visit our grandparents."]
+        ]
+      },
+      "usage": [
+        "used to + V (nguyên thể): thói quen/trạng thái trong quá khứ nay không còn: I used to work overtime a lot.",
+        "would + V: chỉ hành động lặp lại trong quá khứ (không dùng cho trạng thái): Every summer, we would visit our grandparents."
+      ],
+      "signals": [],
+      "notes": [
+        "Phân biệt với be used to + V-ing / N = \"đã quen với\" (hiện tại): I am used to working late."
+      ],
+      "commonMistakes": [
+        { "wrong": "I would live in Hue.", "right": "I used to live in Hue. (trạng thái)" }
+      ]
+    }
+  ],
+  "collocations": [
+    { "phrase": "climb the career ladder", "meaning": "thăng tiến sự nghiệp", "example": "" },
+    { "phrase": "meet / miss a deadline", "meaning": "kịp / lỡ hạn", "example": "" },
+    { "phrase": "be snowed under with work", "meaning": "ngập trong công việc", "example": "" },
+    { "phrase": "a nine-to-five job", "meaning": "công việc giờ hành chính", "example": "" },
+    { "phrase": "take a day off", "meaning": "nghỉ một ngày", "example": "" },
+    { "phrase": "call in sick", "meaning": "báo nghỉ ốm", "example": "" },
+    { "phrase": "get a pay rise", "meaning": "được tăng lương", "example": "" }
+  ],
+  "sentencePatterns": [
+    { "category": "Kinh nghiệm làm việc", "pattern": "I have worked at CPCIT for … years. Before that, I used to…" },
+    { "category": "Kể chuyện quá khứ", "pattern": "Yesterday, I was testing the system when a bug appeared." },
+    { "category": "Quá khứ hoàn thành", "pattern": "By the time I finished, everyone had already gone home." },
+    { "category": "Mô tả công việc", "pattern": "My job involves … / I'm responsible for…" }
+  ],
+  "practiceTasks": [
+    {
+      "skill": "writing",
+      "prompt": "Viết email 120–150 từ cho một đồng nghiệp mô tả công việc của bạn và một việc bạn đã làm tuần trước. Dùng quá khứ đơn + tiếp diễn và 8 từ vựng.",
+      "checklist": ["Dùng quá khứ đơn và quá khứ tiếp diễn", "Dùng ≥ 8 từ vựng tuần", "Đủ 120–150 từ"]
+    },
+    {
+      "skill": "speaking",
+      "prompt": "Ghi âm 90 giây: \"Describe your job: a working day in the past versus now.\"",
+      "checklist": ["Trôi chảy", "Phát âm", "Ngữ pháp", "Từ vựng"]
+    },
+    {
+      "skill": "listening",
+      "prompt": "Nghe 1 tập 6 Minute English chủ đề công việc; chép chính tả 5 câu; tóm tắt 3 câu.",
+      "checklist": ["Chép chính tả 5 câu", "Tóm tắt 3 câu"]
+    }
+  ]
+}

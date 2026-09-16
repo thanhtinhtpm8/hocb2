@@ -1,0 +1,35 @@
+{
+  "week": 1,
+  "sets": [
+    {
+      "id": "set-A",
+      "title": "Ôn tập Tuần 1 — Bộ A",
+      "questions": [
+        { "id": "w1-b1-1", "type": "fill-blank", "skill": "grammar", "tags": ["present-simple", "present-continuous"], "prompt": "Every morning, she ___ (drink) coffee.", "answer": "drinks", "explanation": "Thói quen lặp lại → hiện tại đơn, ngôi thứ 3 số ít thêm -s." },
+        { "id": "w1-b1-2", "type": "fill-blank", "skill": "grammar", "tags": ["present-continuous"], "prompt": "Look! The children ___ (play) in the garden.", "answer": "are playing", "explanation": "\"Look!\" là dấu hiệu của hiện tại tiếp diễn." },
+        { "id": "w1-b1-3", "type": "fill-blank", "skill": "grammar", "tags": ["present-simple"], "prompt": "Water ___ (boil) at 100 degrees.", "answer": "boils", "explanation": "Sự thật hiển nhiên → hiện tại đơn." },
+        { "id": "w1-b1-4", "type": "fill-blank", "skill": "grammar", "tags": ["present-simple"], "prompt": "I ___ (not/work) on Sundays.", "answer": "don't work", "explanation": "Phủ định hiện tại đơn: do not + V." },
+        { "id": "w1-b1-5", "type": "fill-blank", "skill": "grammar", "tags": ["present-continuous"], "prompt": "My brother ___ (study) at university now.", "answer": "is studying", "explanation": "\"now\" → hiện tại tiếp diễn." },
+        { "id": "w1-b2-1", "type": "fill-blank", "skill": "grammar", "tags": ["present-perfect"], "prompt": "I ___ (know) him for ten years.", "answer": "have known", "explanation": "for + khoảng thời gian → hiện tại hoàn thành." },
+        { "id": "w1-b2-2", "type": "fill-blank", "skill": "grammar", "tags": ["present-perfect"], "prompt": "She ___ (just/finish) her homework.", "answer": "has just finished", "explanation": "\"just\" → hiện tại hoàn thành." },
+        { "id": "w1-b2-3", "type": "fill-blank", "skill": "grammar", "tags": ["present-perfect"], "prompt": "They ___ (live) here since 2019.", "answer": "have lived", "explanation": "since + mốc thời gian → hiện tại hoàn thành." },
+        { "id": "w1-b2-4", "type": "fill-blank", "skill": "grammar", "tags": ["present-perfect-continuous"], "prompt": "We ___ (work) on this project all day; we're exhausted.", "answer": "have been working", "explanation": "Nhấn mạnh quá trình kéo dài → hiện tại hoàn thành tiếp diễn." },
+        { "id": "w1-b2-5", "type": "fill-blank", "skill": "grammar", "tags": ["present-perfect"], "prompt": "He ___ (never/be) to Europe.", "answer": "has never been", "explanation": "\"never\" → hiện tại hoàn thành." },
+        { "id": "w1-b3-1", "type": "fill-blank", "skill": "grammar", "tags": ["present-simple"], "prompt": "I ___ (have) dinner with my family every evening.", "answer": "have", "explanation": "\"every evening\" → hiện tại đơn." },
+        { "id": "w1-b3-2", "type": "fill-blank", "skill": "grammar", "tags": ["present-continuous"], "prompt": "Please be quiet — the baby ___ (sleep).", "answer": "is sleeping", "explanation": "Đang xảy ra ngay lúc nói → hiện tại tiếp diễn." },
+        { "id": "w1-b3-3", "type": "fill-blank", "skill": "grammar", "tags": ["present-simple"], "prompt": "He ___ (not/understand) this question.", "answer": "doesn't understand", "explanation": "understand là động từ chỉ trạng thái → không chia tiếp diễn." },
+        { "id": "w1-b3-4", "type": "fill-blank", "skill": "grammar", "tags": ["present-continuous"], "prompt": "We ___ (meet) our new manager tomorrow.", "answer": "are meeting", "explanation": "Kế hoạch tương lai đã sắp xếp → hiện tại tiếp diễn." },
+        { "id": "w1-b4-1", "type": "error-correction", "skill": "grammar", "tags": ["present-simple"], "sentence": "She don't like her job.", "answer": "She doesn't like her job.", "explanation": "Chủ ngữ số ít (she) → doesn't, không dùng don't." },
+        { "id": "w1-b4-2", "type": "error-correction", "skill": "grammar", "tags": ["present-continuous"], "sentence": "He is knowing the answer.", "answer": "He knows the answer.", "explanation": "know là động từ chỉ trạng thái, không chia tiếp diễn." },
+        { "id": "w1-b4-3", "type": "error-correction", "skill": "grammar", "tags": ["present-perfect"], "sentence": "I have seen him yesterday.", "answer": "I saw him yesterday.", "explanation": "\"yesterday\" là thời gian xác định trong quá khứ → dùng quá khứ đơn." },
+        { "id": "w1-b4-4", "type": "error-correction", "skill": "grammar", "tags": ["present-simple"], "sentence": "They goes to work by bus.", "answer": "They go to work by bus.", "explanation": "Chủ ngữ \"they\" (số nhiều) không thêm -s." },
+        { "id": "w1-b5-1", "type": "fill-blank", "skill": "vocabulary", "options": ["commute", "get along with", "household chores", "routine", "punctual"], "prompt": "My morning ___ starts at 6 a.m.", "answer": "routine", "explanation": "routine = thói quen, lề thói." },
+        { "id": "w1-b5-2", "type": "fill-blank", "skill": "vocabulary", "options": ["commute", "get along with", "household chores", "routine", "punctual"], "prompt": "I ___ to work by motorbike.", "answer": "commute", "explanation": "commute = đi lại (đi làm)." },
+        { "id": "w1-b5-3", "type": "fill-blank", "skill": "vocabulary", "options": ["commute", "get along with", "household chores", "routine", "punctual"], "prompt": "We share the ___ at home.", "answer": "household chores", "explanation": "household chores = việc nhà." },
+        { "id": "w1-b5-4", "type": "fill-blank", "skill": "vocabulary", "options": ["commute", "get along with", "household chores", "routine", "punctual"], "prompt": "He is always ___; he never arrives late.", "answer": "punctual", "explanation": "punctual = đúng giờ." },
+        { "id": "w1-b5-5", "type": "fill-blank", "skill": "vocabulary", "options": ["commute", "get along with", "household chores", "routine", "punctual"], "prompt": "I ___ my colleagues very well.", "answer": "get along with", "explanation": "get along with = hòa hợp với." }
+      ]
+    }
+  ],
+  "practiceTasksRef": "theory.json#practiceTasks"
+}

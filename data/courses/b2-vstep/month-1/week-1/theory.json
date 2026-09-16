@@ -1,0 +1,125 @@
+{
+  "week": 1,
+  "title": "Các thì hiện tại & chủ đề Bản thân – Gia đình – Thói quen",
+  "goals": [
+    "Phân biệt và dùng đúng 4 thì hiện tại (hiện tại đơn, hiện tại tiếp diễn, hiện tại hoàn thành, hiện tại hoàn thành tiếp diễn).",
+    "Nói/viết được về bản thân, gia đình và một ngày điển hình.",
+    "Nắm ~40 từ vựng chủ đề đời sống hằng ngày."
+  ],
+  "grammar": [
+    {
+      "id": "present-simple",
+      "title": "1. Thì hiện tại đơn (Present Simple)",
+      "formulaTable": {
+        "headers": ["Loại câu", "Công thức", "Ví dụ"],
+        "rows": [
+          ["Khẳng định", "S + V(s/es)", "She works at a bank."],
+          ["Phủ định", "S + do/does + not + V", "He doesn't work on Sundays."],
+          ["Nghi vấn", "Do/Does + S + V?", "Do you live here?"]
+        ]
+      },
+      "usage": [
+        "Thói quen, việc lặp đi lặp lại: I go to work at 7 a.m.",
+        "Sự thật hiển nhiên, chân lý: Water boils at 100°C.",
+        "Lịch trình cố định (tàu xe, giờ họp): The train leaves at 6:30."
+      ],
+      "signals": ["always", "usually", "often", "sometimes", "rarely", "never", "every day/week", "on Mondays", "twice a week"],
+      "notes": [
+        "Trạng từ tần suất đứng trước động từ thường nhưng sau động từ to be: I often get up early. / She is often late.",
+        "Chia động từ ngôi thứ 3 số ít (he/she/it): thêm -s; thêm -es sau o, s, sh, ch, x (go → goes, watch → watches); phụ âm + y → đổi y thành -ies (study → studies)."
+      ],
+      "commonMistakes": [
+        { "wrong": "He go to work.", "right": "He goes to work." },
+        { "wrong": "She don't like coffee.", "right": "She doesn't like coffee." }
+      ]
+    },
+    {
+      "id": "present-continuous",
+      "title": "2. Thì hiện tại tiếp diễn (Present Continuous)",
+      "formulaTable": {
+        "headers": ["Công thức"],
+        "rows": [["S + am/is/are + V-ing"]]
+      },
+      "usage": [
+        "Hành động đang xảy ra ngay lúc nói: I am reading now.",
+        "Hành động tạm thời quanh thời điểm hiện tại: He is living with his parents this month.",
+        "Kế hoạch/cuộc hẹn tương lai đã sắp xếp: We are meeting the client tomorrow."
+      ],
+      "signals": ["now", "right now", "at the moment", "at present", "Look!", "Listen!"],
+      "notes": [
+        "Quy tắc thêm -ing: bỏ e rồi thêm -ing (make → making); gấp đôi phụ âm cuối khi từ một âm tiết tận cùng nguyên âm + phụ âm (run → running, sit → sitting).",
+        "Động từ chỉ trạng thái (stative verbs) — thường KHÔNG chia tiếp diễn: like, love, hate, want, need, know, understand, believe, belong, seem."
+      ],
+      "commonMistakes": [
+        { "wrong": "I am knowing.", "right": "I know." }
+      ]
+    },
+    {
+      "id": "present-perfect",
+      "title": "3. Thì hiện tại hoàn thành (Present Perfect)",
+      "formulaTable": {
+        "headers": ["Công thức"],
+        "rows": [["S + have/has + V3 (quá khứ phân từ)"]]
+      },
+      "usage": [
+        "Kinh nghiệm/trải nghiệm (không nói rõ thời gian): I have visited Japan.",
+        "Hành động vừa xảy ra, còn để lại kết quả: She has broken her phone (→ giờ không dùng được).",
+        "Hành động bắt đầu trong quá khứ, kéo dài đến hiện tại: We have lived here for 5 years."
+      ],
+      "signals": ["just", "already", "yet", "ever", "never", "recently", "so far", "for + khoảng thời gian", "since + mốc thời gian"],
+      "notes": [
+        "already (rồi) — câu khẳng định; yet (chưa/đã…chưa) — câu phủ định & nghi vấn, đứng cuối câu.",
+        "for + khoảng thời gian (for two years); since + mốc bắt đầu (since 2020).",
+        "Phân biệt với quá khứ đơn: Quá khứ đơn dùng khi có thời gian xác định trong quá khứ (I saw him yesterday); hiện tại hoàn thành dùng khi không xác định / còn liên hệ tới hiện tại (I have seen that film)."
+      ],
+      "commonMistakes": []
+    },
+    {
+      "id": "present-perfect-continuous",
+      "title": "4. Thì hiện tại hoàn thành tiếp diễn (Present Perfect Continuous)",
+      "formulaTable": {
+        "headers": ["Công thức"],
+        "rows": [["S + have/has + been + V-ing"]]
+      },
+      "usage": [
+        "Nhấn mạnh tính liên tục/khoảng thời gian của hành động bắt đầu trong quá khứ và vẫn đang tiếp diễn hoặc vừa dừng: I have been studying English for two hours (→ vẫn đang học/vừa nghỉ)."
+      ],
+      "signals": [],
+      "notes": [
+        "Phân biệt: I have written three emails (nhấn kết quả, số lượng) vs I have been writing emails all morning (nhấn quá trình, thời lượng)."
+      ],
+      "commonMistakes": []
+    }
+  ],
+  "collocations": [
+    { "phrase": "a typical day", "meaning": "một ngày điển hình", "example": "On a typical day, I…" },
+    { "phrase": "first thing in the morning", "meaning": "việc đầu tiên buổi sáng", "example": "" },
+    { "phrase": "be in charge of", "meaning": "phụ trách", "example": "I'm in charge of housework." },
+    { "phrase": "spend time with family", "meaning": "dành thời gian cho gia đình", "example": "" },
+    { "phrase": "a close-knit family", "meaning": "gia đình gắn bó", "example": "" },
+    { "phrase": "as a rule / more often than not", "meaning": "theo lệ thường / thường là", "example": "" }
+  ],
+  "sentencePatterns": [
+    { "category": "Giới thiệu", "pattern": "My name is… I'm a specialist at… I've been working there for… years." },
+    { "category": "Thói quen", "pattern": "I usually get up at… After that, I…" },
+    { "category": "Gia đình", "pattern": "There are … people in my family. I take after my…" },
+    { "category": "Hiện tại hoàn thành", "pattern": "I have lived in Da Nang since… I have never…" }
+  ],
+  "practiceTasks": [
+    {
+      "skill": "writing",
+      "prompt": "Viết đoạn 120–150 từ giới thiệu bản thân, gia đình và một ngày điển hình. Dùng ít nhất 5 thì hiện tại khác nhau và 8 từ vựng trong tuần. Gạch chân các cấu trúc ngữ pháp đã dùng.",
+      "checklist": ["Dùng ≥ 5 cấu trúc thì hiện tại khác nhau", "Dùng ≥ 8 từ vựng tuần", "Đủ 120–150 từ"]
+    },
+    {
+      "skill": "speaking",
+      "prompt": "Ghi âm 90 giây trả lời: \"Describe your daily routine and your family.\" Tự chấm 4 tiêu chí (trôi chảy / phát âm / ngữ pháp / từ vựng), thang 1–5.",
+      "checklist": ["Trôi chảy", "Phát âm", "Ngữ pháp", "Từ vựng"]
+    },
+    {
+      "skill": "listening",
+      "prompt": "Nghe 1 tập BBC 6 Minute English (chủ đề gia đình/thói quen). Nghe 2 lần, chép chính tả 5 câu, tóm tắt 3 câu tiếng Anh.",
+      "checklist": ["Chép chính tả 5 câu", "Tóm tắt 3 câu tiếng Anh"]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "week": 3,
+  "title": "Cách diễn đạt tương lai & chủ đề Du lịch – Giao thông",
+  "goals": [
+    "Phân biệt và dùng đúng will, be going to, hiện tại tiếp diễn và hiện tại đơn để nói về tương lai.",
+    "Lên kế hoạch, dự đoán, hẹn hò bằng tiếng Anh.",
+    "Nói/viết được về du lịch và đi lại.",
+    "Nắm ~40 từ vựng chủ đề du lịch – giao thông."
+  ],
+  "grammar": [
+    {
+      "id": "future-will",
+      "title": "1. \"will\" (Future Simple)",
+      "formulaTable": {
+        "headers": ["Công thức"],
+        "rows": [["S + will + V (nguyên thể)"]]
+      },
+      "usage": [
+        "Dự đoán chủ quan (nghĩ, tin): I think it will rain.",
+        "Quyết định tức thời ngay lúc nói: The phone is ringing — I'll get it.",
+        "Lời hứa, đề nghị, đe dọa: I will help you."
+      ],
+      "signals": ["I think", "I believe", "probably", "maybe", "in the future", "tomorrow"],
+      "notes": [],
+      "commonMistakes": [
+        { "wrong": "I will to visit my family next week.", "right": "I will visit my family next week." }
+      ]
+    },
+    {
+      "id": "be-going-to",
+      "title": "2. \"be going to\"",
+      "formulaTable": {
+        "headers": ["Công thức"],
+        "rows": [["S + am/is/are + going to + V"]]
+      },
+      "usage": [
+        "Kế hoạch, dự định đã có từ trước: We are going to travel to Hue next month.",
+        "Dự đoán dựa trên bằng chứng hiện tại: Look at those clouds — it's going to rain."
+      ],
+      "signals": [],
+      "notes": [
+        "So sánh will vs be going to: quyết định ngay lúc nói → will; kế hoạch đã định trước → going to. \"There's no milk.\" — \"OK, I'll buy some.\" (quyết định ngay) vs \"I'm going to buy milk after work.\" (đã định)."
+      ],
+      "commonMistakes": [
+        { "wrong": "Look! It will rain.", "right": "Look! It's going to rain." }
+      ]
+    },
+    {
+      "id": "present-continuous-future",
+      "title": "3. Hiện tại tiếp diễn chỉ tương lai",
+      "formulaTable": {
+        "headers": ["Công thức"],
+        "rows": [["S + am/is/are + V-ing (+ thời gian/địa điểm cụ thể)"]]
+      },
+      "usage": [
+        "Dùng cho cuộc hẹn/sắp xếp cá nhân đã cố định (có thời gian, địa điểm): I am meeting the client at 10 tomorrow. · We are flying to Hanoi on Friday."
+      ],
+      "signals": ["at + giờ cụ thể", "on + ngày cụ thể (đã sắp xếp)", "tomorrow"],
+      "notes": [],
+      "commonMistakes": []
+    },
+    {
+      "id": "present-simple-future",
+      "title": "4. Hiện tại đơn chỉ tương lai",
+      "formulaTable": {
+        "headers": ["Công thức"],
+        "rows": [["S + V(s/es) (dùng cho lịch trình cố định)"]]
+      },
+      "usage": [
+        "Dùng cho lịch trình cố định (tàu, xe, máy bay, giờ chiếu, lịch làm việc): The train leaves at 6:30. · The conference starts on Monday."
+      ],
+      "signals": ["lịch trình (timetable)", "giờ tàu/xe/máy bay cố định"],
+      "notes": [
+        "Tóm tắt lựa chọn thì tương lai: quyết định tức thời → will; kế hoạch/dự định → be going to; cuộc hẹn cá nhân cố định → present continuous; lịch trình chung → present simple."
+      ],
+      "commonMistakes": [
+        { "wrong": "The bus is leaving at 7 every day.", "right": "The bus leaves at 7 every day." }
+      ]
+    }
+  ],
+  "collocations": [
+    { "phrase": "go on holiday / go on a business trip", "meaning": "đi nghỉ / đi công tác", "example": "" },
+    { "phrase": "book in advance", "meaning": "đặt trước", "example": "" },
+    { "phrase": "travel light", "meaning": "đi gọn nhẹ (ít hành lý)", "example": "" },
+    { "phrase": "a change of plan", "meaning": "sự thay đổi kế hoạch", "example": "" },
+    { "phrase": "be on time / run late", "meaning": "đúng giờ / trễ giờ", "example": "" },
+    { "phrase": "beat the traffic", "meaning": "tránh kẹt xe", "example": "" }
+  ],
+  "sentencePatterns": [
+    { "category": "Kế hoạch tương lai", "pattern": "Next month, I'm going to visit… / We're flying to… on…" },
+    { "category": "Lịch trình", "pattern": "The plane leaves at… and arrives at…" },
+    { "category": "Hẹn/đề nghị", "pattern": "If you come, I'll pick you up at the airport." },
+    { "category": "Dự đoán", "pattern": "I think you'll love the scenery there." }
+  ],
+  "practiceTasks": [
+    {
+      "skill": "writing",
+      "prompt": "Viết email 120–150 từ rủ bạn đi du lịch: kế hoạch, thời gian, phương tiện, những gì sẽ làm. Dùng đủ 4 cách diễn đạt tương lai.",
+      "checklist": ["Dùng đủ 4 cách diễn đạt tương lai (will, be going to, present continuous, present simple)", "Nêu kế hoạch, thời gian, phương tiện, hoạt động", "Đủ 120–150 từ"]
+    },
+    {
+      "skill": "speaking",
+      "prompt": "Ghi âm 90 giây: \"Talk about a trip you are going to take.\"",
+      "checklist": ["Ghi âm đủ khoảng 90 giây", "Nói về một chuyến đi sắp/định thực hiện", "Dùng cấu trúc diễn đạt tương lai phù hợp (will/be going to/present continuous)"]
+    },
+    {
+      "skill": "listening",
+      "prompt": "Nghe 1 bài về du lịch (BBC/VOA), chép chính tả 5 câu, tóm tắt 3 câu.",
+      "checklist": ["Chép chính tả 5 câu", "Tóm tắt 3 câu tiếng Anh"]
+    }
+  ]
+}

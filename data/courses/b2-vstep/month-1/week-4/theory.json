@@ -1,0 +1,126 @@
+{
+  "week": 4,
+  "title": "Danh từ đếm được/không đếm được, mạo từ, lượng từ & chủ đề Ăn uống – Lối sống lành mạnh",
+  "goals": [
+    "Dùng đúng danh từ đếm được / không đếm được.",
+    "Dùng đúng mạo từ a/an/the/zero (không mạo từ).",
+    "Dùng đúng các lượng từ (some/any, much/many, a few/a little, a lot of).",
+    "Nói/viết được về ăn uống và lối sống lành mạnh.",
+    "Nắm ~40 từ vựng chủ đề Ăn uống – Lối sống lành mạnh.",
+    "Hoàn thành bài test tổng hợp Tháng 1 vào cuối tuần."
+  ],
+  "grammar": [
+    {
+      "id": "countable-uncountable-nouns",
+      "title": "1. Danh từ đếm được & không đếm được",
+      "formulaTable": {
+        "headers": ["Loại danh từ", "Đặc điểm", "Ví dụ"],
+        "rows": [
+          ["Đếm được (countable)", "Có số ít/số nhiều; đi với a/an, many, số đếm", "a book / books, an apple / apples"],
+          ["Không đếm được (uncountable)", "Không có số nhiều, luôn chia động từ số ít; đi với much, a little, some", "water, rice, information, advice, money, furniture, news"],
+          ["Định lượng bằng vật chứa/đơn vị", "Dùng để đếm danh từ không đếm được", "a glass of water, a bottle of milk, a piece of bread, a slice of cake, a bar of chocolate"]
+        ]
+      },
+      "usage": [
+        "Danh từ đếm được có dạng số ít và số nhiều: a book / books, an apple / apples.",
+        "Danh từ không đếm được không có số nhiều, luôn chia động từ ở ngôi số ít: water, rice, information, advice, money, furniture, news.",
+        "Định lượng danh từ không đếm được bằng cụm 'vật chứa/đơn vị': a glass of water, a bottle of milk, a piece of bread, a slice of cake, a bar of chocolate."
+      ],
+      "signals": ["a/an + danh từ đếm được số ít", "many/a few + danh từ đếm được số nhiều", "much/a little/some + danh từ không đếm được"],
+      "notes": [
+        "Nhiều danh từ tiếng Anh không đếm được dù nghĩa tiếng Việt nghe có vẻ đếm được: information, advice, furniture, news, money."
+      ],
+      "commonMistakes": [
+        { "wrong": "an advice", "right": "a piece of advice" },
+        { "wrong": "informations", "right": "some information" }
+      ]
+    },
+    {
+      "id": "articles",
+      "title": "2. Mạo từ a / an / the / zero (không mạo từ)",
+      "formulaTable": {
+        "headers": ["Mạo từ", "Dùng khi", "Ví dụ"],
+        "rows": [
+          ["a / an", "Danh từ đếm được số ít, nhắc lần đầu / chung chung. a trước phụ âm, an trước nguyên âm (âm)", "a university (/j/ → a), an hour (h câm → an)"],
+          ["the", "Đã xác định (nhắc lại, cả người nói và người nghe đều biết), vật duy nhất, so sánh nhất, tên sông/biển/dãy núi", "the sun, the Internet, the best, the Mekong"],
+          ["zero (không mạo từ)", "Danh từ số nhiều/không đếm mang nghĩa chung, tên riêng, bữa ăn, môn thể thao, ngôn ngữ", "I like coffee. / Cats are cute. / have breakfast"]
+        ]
+      },
+      "usage": [
+        "a/an dùng cho danh từ đếm được số ít khi nhắc đến lần đầu hoặc mang nghĩa chung.",
+        "the dùng khi vật đã được xác định, vật duy nhất, so sánh nhất, hoặc tên sông/biển/dãy núi: the sun, the Internet, the best, the Mekong.",
+        "Không dùng mạo từ (zero article) với danh từ số nhiều/không đếm mang nghĩa chung, tên riêng, bữa ăn, môn thể thao, ngôn ngữ: I like coffee. / Cats are cute. / have breakfast."
+      ],
+      "signals": ["a trước phụ âm", "an trước nguyên âm (âm)", "the + vật duy nhất/so sánh nhất/sông biển núi", "zero + số nhiều nghĩa chung/tên riêng/bữa ăn/thể thao/ngôn ngữ"],
+      "notes": [
+        "Xét theo âm đọc chứ không phải chữ cái đầu: a university (âm /j/), an hour (h câm)."
+      ],
+      "commonMistakes": [
+        { "wrong": "I have a information.", "right": "I have some information." },
+        { "wrong": "She plays the football.", "right": "She plays football." }
+      ]
+    },
+    {
+      "id": "quantifiers",
+      "title": "3. Lượng từ (Quantifiers)",
+      "formulaTable": {
+        "headers": ["Lượng từ", "Dùng với", "Ví dụ"],
+        "rows": [
+          ["some", "(+) đếm số nhiều & không đếm", "I have some friends / some water."],
+          ["any", "(–)/(?) đếm số nhiều & không đếm", "I don’t have any money. Is there any rice?"],
+          ["many", "đếm được số nhiều", "many people"],
+          ["much", "không đếm được (thường trong –/?)", "I don’t have much time."],
+          ["a lot of / lots of", "cả hai", "a lot of books / a lot of water"],
+          ["a few", "đếm được (một vài – ý dương)", "a few apples"],
+          ["few", "đếm được (ít – ý âm: gần như không)", "few people came."],
+          ["a little", "không đếm (một chút – ý dương)", "a little sugar"],
+          ["little", "không đếm (ít – ý âm)", "little hope"]
+        ]
+      },
+      "usage": [
+        "some dùng trong câu khẳng định (và câu đề nghị/yêu cầu) với danh từ đếm số nhiều & không đếm: I have some friends / some water. Would you like some tea?",
+        "any dùng trong câu phủ định/nghi vấn với danh từ đếm số nhiều & không đếm: I don’t have any money. Is there any rice?",
+        "many/much dùng cho danh từ đếm được/không đếm được, thường trong câu phủ định & nghi vấn; a lot of/lots of dùng được cho cả hai loại, thường trong câu khẳng định.",
+        "a few/a little mang nghĩa dương (một vài/một chút); few/little (không có 'a') mang nghĩa âm (rất ít, gần như không)."
+      ],
+      "signals": ["some", "any", "many", "much", "a lot of / lots of", "a few", "few", "a little", "little"],
+      "notes": [
+        "Mẹo: trong câu khẳng định thường dùng a lot of; câu phủ định/nghi vấn dùng much/many.",
+        "some cũng dùng trong câu hỏi đề nghị/yêu cầu: Would you like some tea?"
+      ],
+      "commonMistakes": []
+    }
+  ],
+  "collocations": [
+    { "phrase": "a balanced / healthy / poor diet", "meaning": "chế độ ăn cân bằng / lành mạnh / kém", "example": "" },
+    { "phrase": "eat out", "meaning": "ăn ngoài", "example": "" },
+    { "phrase": "eat in / cook at home", "meaning": "ăn ở nhà / tự nấu ăn", "example": "" },
+    { "phrase": "grab a quick bite", "meaning": "ăn nhanh, ăn vội", "example": "" },
+    { "phrase": "have a sweet tooth", "meaning": "thích đồ ngọt", "example": "" },
+    { "phrase": "work up an appetite", "meaning": "làm cho đói, kích thích thèm ăn", "example": "" },
+    { "phrase": "watch what you eat", "meaning": "để ý, chú ý đến việc ăn uống", "example": "" }
+  ],
+  "sentencePatterns": [
+    { "category": "Ăn uống lành mạnh", "pattern": "I try to eat a balanced diet and cut down on fast food." },
+    { "category": "Lượng từ trong câu", "pattern": "There isn’t much time to cook, so I prepare a few simple meals." },
+    { "category": "Lối sống", "pattern": "I do some exercise every day to stay fit." },
+    { "category": "Giao tiếp / mời", "pattern": "Would you like some tea? — Yes, but only a little, please." }
+  ],
+  "practiceTasks": [
+    {
+      "skill": "writing",
+      "prompt": "Viết đoạn 120–150 từ về thói quen ăn uống và cách bạn giữ lối sống lành mạnh. Dùng lượng từ, mạo từ đúng và 8 từ vựng.",
+      "checklist": ["Dùng đúng mạo từ (a/an/the/zero)", "Dùng đúng lượng từ (some/any/much/many/a few/a little…)", "Dùng ≥ 8 từ vựng tuần", "Đủ 120–150 từ"]
+    },
+    {
+      "skill": "speaking",
+      "prompt": "Ghi âm 90 giây: \"Talk about your favourite food and how you stay healthy.\"",
+      "checklist": ["Trôi chảy", "Phát âm", "Ngữ pháp", "Từ vựng"]
+    },
+    {
+      "skill": "listening",
+      "prompt": "Nghe 1 bài về ăn uống/sức khỏe (BBC 6 Minute English), chép chính tả 5 câu, tóm tắt 3 câu.",
+      "checklist": ["Chép chính tả 5 câu", "Tóm tắt 3 câu tiếng Anh"]
+    }
+  ]
+}

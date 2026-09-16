@@ -1,0 +1,30 @@
+{
+  "week": 2,
+  "sets": [
+    {
+      "id": "set-A",
+      "title": "Ôn tập Tuần 2 — Bộ A",
+      "questions": [
+        { "id": "w2-b1-1", "type": "fill-blank", "skill": "grammar", "tags": ["past-simple"], "prompt": "She (join) ___ the company in 2018.", "answer": "joined", "explanation": "Hành động đã hoàn tất tại thời điểm xác định (in 2018) → quá khứ đơn, động từ có quy tắc thêm -ed." },
+        { "id": "w2-b1-2", "type": "fill-blank", "skill": "grammar", "tags": ["past-simple"], "prompt": "They (not/finish) ___ the project on time.", "answer": "didn't finish", "explanation": "Phủ định quá khứ đơn: S + did not + V (nguyên thể)." },
+        { "id": "w2-b1-3", "type": "fill-blank", "skill": "grammar", "tags": ["past-simple"], "prompt": "(you/see) ___ the email yesterday?", "answer": "Did you see", "explanation": "Nghi vấn quá khứ đơn: Did + S + V (nguyên thể)?; dấu hiệu yesterday." },
+        { "id": "w2-b1-4", "type": "fill-blank", "skill": "grammar", "tags": ["past-simple"], "prompt": "He (buy) ___ a new laptop last week.", "answer": "bought", "explanation": "buy là động từ bất quy tắc (buy → bought); dấu hiệu last week." },
+        { "id": "w2-b2-1", "type": "fill-blank", "skill": "grammar", "tags": ["past-simple", "past-continuous"], "prompt": "I (work) ___ when the manager (call) ___ me.", "answer": "was working / called", "explanation": "Hành động đang diễn ra (was working – quá khứ tiếp diễn) bị hành động khác xen vào (called – quá khứ đơn); when + quá khứ đơn cho hành động xen vào." },
+        { "id": "w2-b2-2", "type": "fill-blank", "skill": "grammar", "tags": ["past-simple", "past-continuous"], "prompt": "While she (write) ___ the report, the computer (crash) ___.", "answer": "was writing / crashed", "explanation": "while + quá khứ tiếp diễn (hành động nền: was writing) + quá khứ đơn (hành động xen vào: crashed)." },
+        { "id": "w2-b2-3", "type": "fill-blank", "skill": "grammar", "tags": ["past-simple"], "prompt": "We (have) ___ a meeting at 3 p.m. yesterday.", "answer": "had", "explanation": "Hành động đã hoàn tất tại thời điểm xác định trong quá khứ (yesterday) → quá khứ đơn." },
+        { "id": "w2-b3-1", "type": "fill-blank", "skill": "grammar", "tags": ["past-perfect"], "prompt": "When I arrived, the meeting (already/start) ___.", "answer": "had already started", "explanation": "Hành động xảy ra trước một hành động khác trong quá khứ (trước khi \"I arrived\") → quá khứ hoàn thành, dấu hiệu already." },
+        { "id": "w2-b3-2", "type": "fill-blank", "skill": "grammar", "tags": ["past-perfect"], "prompt": "She (finish) ___ her work before she went home.", "answer": "had finished", "explanation": "Hành động \"finish\" xảy ra trước hành động \"went home\" → quá khứ hoàn thành, dấu hiệu before." },
+        { "id": "w2-b3-3", "type": "fill-blank", "skill": "grammar", "tags": ["past-perfect"], "prompt": "They were tired because they (work) ___ all day.", "answer": "had worked (had been working)", "explanation": "Hành động xảy ra trước và là nguyên nhân của trạng thái ở quá khứ đơn (were tired) → quá khứ hoàn thành (hoặc quá khứ hoàn thành tiếp diễn để nhấn mạnh quá trình kéo dài)." },
+        { "id": "w2-b4-1", "type": "fill-blank", "skill": "grammar", "tags": ["used-to-would"], "prompt": "I ___ work overtime a lot, but now I don't.", "answer": "used to", "explanation": "Thói quen trong quá khứ nay không còn → used to + V (nguyên thể)." },
+        { "id": "w2-b4-2", "type": "fill-blank", "skill": "grammar", "tags": ["used-to-would"], "prompt": "Every weekend, we ___ go fishing with my father.", "answer": "would (used to)", "explanation": "Hành động lặp lại trong quá khứ → would + V (cũng có thể dùng used to)." },
+        { "id": "w2-b4-3", "type": "fill-blank", "skill": "grammar", "tags": ["used-to-would"], "prompt": "I'm ___ working under pressure now.", "answer": "used to (be used to)", "explanation": "\"Đã quen với\" ở hiện tại → be used to + V-ing, không phải used to + V." },
+        { "id": "w2-b5-1", "type": "fill-blank", "skill": "vocabulary", "options": ["deadline", "promotion", "colleagues", "resigned", "workload"], "prompt": "My ___ are very supportive.", "answer": "colleagues", "explanation": "colleagues = đồng nghiệp." },
+        { "id": "w2-b5-2", "type": "fill-blank", "skill": "vocabulary", "options": ["deadline", "promotion", "colleagues", "resigned", "workload"], "prompt": "He ___ because he found a better job.", "answer": "resigned", "explanation": "resign = từ chức, nghỉ việc." },
+        { "id": "w2-b5-3", "type": "fill-blank", "skill": "vocabulary", "options": ["deadline", "promotion", "colleagues", "resigned", "workload"], "prompt": "We must meet the ___ by Friday.", "answer": "deadline", "explanation": "deadline = hạn chót." },
+        { "id": "w2-b5-4", "type": "fill-blank", "skill": "vocabulary", "options": ["deadline", "promotion", "colleagues", "resigned", "workload"], "prompt": "She got a ___ after two years.", "answer": "promotion", "explanation": "promotion = thăng chức." },
+        { "id": "w2-b5-5", "type": "fill-blank", "skill": "vocabulary", "options": ["deadline", "promotion", "colleagues", "resigned", "workload"], "prompt": "My ___ is heavy this month.", "answer": "workload", "explanation": "workload = khối lượng công việc." }
+      ]
+    }
+  ],
+  "practiceTasksRef": "theory.json#practiceTasks"
+}
