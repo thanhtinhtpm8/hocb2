@@ -1,0 +1,73 @@
+{
+  "month": 1,
+  "title": "Bài test tổng hợp cuối Tháng 1",
+  "subtitle": "Mô phỏng VSTEP – rút gọn",
+  "instructions": "Làm trong 60 phút, không tra tài liệu. Chấm theo đáp án ở cuối; quy đổi: mỗi phần lấy % đúng × 10.",
+  "timeLimitMinutes": 60,
+  "sections": [
+    {
+      "id": "grammar-vocab",
+      "type": "multiple-choice",
+      "title": "Phần 1 — Ngữ pháp & Từ vựng",
+      "instructions": "20 câu, chọn A/B/C/D.",
+      "questions": [
+        { "id": "p1-1", "question": "She ___ to work by bus every day.", "options": ["go", "goes", "going", "is go"], "answer": "goes" },
+        { "id": "p1-2", "question": "Listen! The baby ___.", "options": ["cries", "cry", "is crying", "cried"], "answer": "is crying" },
+        { "id": "p1-3", "question": "I ___ him since 2015.", "options": ["know", "knew", "have known", "am knowing"], "answer": "have known" },
+        { "id": "p1-4", "question": "They ___ the project last month.", "options": ["finish", "finished", "have finished", "finishing"], "answer": "finished" },
+        { "id": "p1-5", "question": "While I ___, the phone rang.", "options": ["cook", "cooked", "was cooking", "am cooking"], "answer": "was cooking" },
+        { "id": "p1-6", "question": "By the time we arrived, the film ___.", "options": ["started", "has started", "had started", "starts"], "answer": "had started" },
+        { "id": "p1-7", "question": "I ___ live in Hue, but now I live in Da Nang.", "options": ["use to", "used to", "am used to", "would"], "answer": "used to" },
+        { "id": "p1-8", "question": "Look at the clouds! It ___ rain.", "options": ["will", "is going to", "rains", "would"], "answer": "is going to" },
+        { "id": "p1-9", "question": "The train ___ at 6:30 tomorrow morning.", "options": ["leaves", "will leave", "is leaving", "leave"], "answer": "leaves" },
+        { "id": "p1-10", "question": "I don't have ___ money.", "options": ["many", "a few", "much", "some"], "answer": "much" },
+        { "id": "p1-11", "question": "How ___ people came?", "options": ["much", "many", "little", "any"], "answer": "many" },
+        { "id": "p1-12", "question": "Can I have ___ water, please?", "options": ["any", "many", "some", "much"], "answer": "some" },
+        { "id": "p1-13", "question": "She is ___ honest employee.", "options": ["a", "an", "the", "(no article)"], "answer": "an" },
+        { "id": "p1-14", "question": "My ___ are supportive at work.", "options": ["colleagues", "customers", "relatives", "tourists"], "answer": "colleagues" },
+        { "id": "p1-15", "question": "We must meet the ___ by Friday.", "options": ["schedule", "deadline", "routine", "fare"], "answer": "deadline" },
+        { "id": "p1-16", "question": "I want to eat a ___ diet.", "options": ["balanced", "spicy", "processed", "fast"], "answer": "balanced" },
+        { "id": "p1-17", "question": "There was a two-hour ___ at the airport.", "options": ["journey", "delay", "fare", "visa"], "answer": "delay" },
+        { "id": "p1-18", "question": "He got a ___ after two years.", "options": ["promotion", "resign", "shift", "workload"], "answer": "promotion" },
+        { "id": "p1-19", "question": "I ___ my colleagues very well.", "options": ["take after", "get along with", "look after", "give up"], "answer": "get along with" },
+        { "id": "p1-20", "question": "Eat vegetables; they are very ___.", "options": ["tasty", "spicy", "nutritious", "overweight"], "answer": "nutritious" }
+      ]
+    },
+    {
+      "id": "reading",
+      "type": "reading",
+      "title": "Phần 2 — Đọc hiểu",
+      "instructions": "Đọc đoạn văn, trả lời 5 câu.",
+      "passage": "My Daily Routine. I usually get up at six o'clock. First, I make the bed and take a shower. Then I have a quick breakfast — usually some bread and an egg. I commute to work by motorbike; it takes about twenty minutes. I have worked at an IT company for five years, and I really enjoy it because my colleagues are friendly and the work is challenging. In the evening, I do some exercise to stay fit, and I try to eat a balanced diet. At weekends, I hang out with my family and visit my relatives.",
+      "questions": [
+        { "id": "p2-1", "question": "What time does the writer get up?", "suggestedAnswer": "At six o'clock." },
+        { "id": "p2-2", "question": "How does the writer go to work?", "suggestedAnswer": "By motorbike." },
+        { "id": "p2-3", "question": "How long has the writer worked at the company?", "suggestedAnswer": "For five years." },
+        { "id": "p2-4", "question": "Why does the writer enjoy the job?", "suggestedAnswer": "Because his colleagues are friendly and the work is challenging." },
+        { "id": "p2-5", "question": "What does the writer do at weekends?", "suggestedAnswer": "He hangs out with his family and visits his relatives." }
+      ]
+    },
+    {
+      "id": "writing",
+      "type": "writing",
+      "title": "Phần 3 — Viết",
+      "tasks": [
+        { "id": "w-task1", "label": "Task 1", "wordCount": "≈120 từ", "prompt": "Viết email cho một người bạn kể về công việc và một ngày điển hình của bạn." },
+        { "id": "w-task2", "label": "Task 2", "wordCount": "≈180–200 từ", "prompt": "\"A healthy lifestyle is important for everyone.\" Bạn có đồng ý không? Nêu ý kiến và ví dụ." }
+      ]
+    },
+    {
+      "id": "speaking",
+      "type": "speaking",
+      "title": "Phần 4 — Nói",
+      "durationNote": "Ghi âm ~4–5 phút",
+      "parts": [
+        { "part": 1, "prompt": "Trả lời: Where are you from? What do you do? Describe your daily routine." },
+        { "part": 2, "prompt": "Nói 1 phút: Describe a trip you are going to take." },
+        { "part": 3, "prompt": "Nêu quan điểm: Do you think home-cooked food is better than fast food? Why?" }
+      ]
+    }
+  ],
+  "scoringNote": "Phần 1 (20 câu): số đúng ÷ 2 = điểm. Phần 2 (5 câu): số đúng × 2. Writing & Speaking nhờ AI/giáo viên chấm theo tiêu chí VSTEP.",
+  "goalNote": "Ghi điểm vào mục Tiến độ → mục tiêu Tháng 1 ~4.5–5.0."
+}

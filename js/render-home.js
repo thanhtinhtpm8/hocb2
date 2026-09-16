@@ -31,9 +31,13 @@ export function renderHome(root, manifest) {
 
   course.months.forEach((month) => {
     const block = el("div", { class: "month-block" });
+    const headRight = [el("span", { class: "month-goal" }, `Mục tiêu: ${month.goalScore}`)];
+    if (month.hasTest) {
+      headRight.push(el("a", { href: `#/course/${course.id}/${month.id}/test`, class: "btn ghost", style: "padding:4px 12px;font-size:12px;" }, "📝 Test cuối tháng"));
+    }
     block.appendChild(el("div", { class: "month-head" }, [
       el("h2", {}, month.title),
-      el("span", { class: "month-goal" }, `Mục tiêu: ${month.goalScore}`),
+      el("div", { style: "display:flex;align-items:center;gap:8px;" }, headRight),
     ]));
     block.appendChild(el("p", { style: "font-size:13px;color:var(--text-muted);margin-top:-4px;margin-bottom:12px;" }, month.summary));
 

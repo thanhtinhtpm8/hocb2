@@ -13,6 +13,7 @@
           "title": "Tháng 1 — Củng cố nền tảng B1",
           "summary": "Lấp lỗ hổng các thì, danh từ/mạo từ; xây thói quen học đều; làm quen tổng thể bài thi VSTEP.",
           "goalScore": "TB ~4.5–5.0",
+          "hasTest": true,
           "weeks": [
             {
               "id": "week-1",

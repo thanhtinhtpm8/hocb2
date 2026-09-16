@@ -1,4 +1,4 @@
-const CACHE_NAME = "b2vstep-v1";
+const CACHE_NAME = "b2vstep-v2";
 const APP_SHELL = ["./", "./index.html", "./css/style.css", "./manifest.webmanifest"];
 
 self.addEventListener("install", (e) => {
@@ -13,7 +13,9 @@ self.addEventListener("activate", (e) => {
   self.clients.claim();
 });
 
-// stale-while-revalidate for same-origin GET requests
+// Network-first for same-origin GET requests, falling back to cache when offline.
+// Content here (manifest + weekly JSON) grows over time, so a stale cache-first
+// hit would hide newly added weeks/months from returning visitors who are online.
 self.addEventListener("fetch", (e) => {
   if (e.request.method !== "GET") return;
   const url = new URL(e.request.url);
@@ -21,11 +23,15 @@ self.addEventListener("fetch", (e) => {
 
   e.respondWith(
     caches.open(CACHE_NAME).then(async (cache) => {
-      const cached = await cache.match(e.request);
-      const networkFetch = fetch(e.request)
-        .then((res) => { if (res.ok) cache.put(e.request, res.clone()); return res; })
-        .catch(() => cached);
-      return cached || networkFetch;
+      try {
+        const res = await fetch(e.request);
+        if (res.ok) cache.put(e.request, res.clone());
+        return res;
+      } catch {
+        const cached = await cache.match(e.request);
+        if (cached) return cached;
+        throw new Error("offline and not cached");
+      }
     })
   );
 });

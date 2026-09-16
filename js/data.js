@@ -27,6 +27,18 @@ export const Data = {
   async getVocab(weekPath) { return fetchJSON(`data/${weekPath}/vocab.json`); },
   async getQuiz(weekPath) { return fetchJSON(`data/${weekPath}/quiz.json`); },
 
+  async findMonth(courseId, monthId) {
+    const manifest = await this.getManifest();
+    const course = manifest.courses.find((c) => c.id === courseId);
+    if (!course) return null;
+    const month = course.months.find((m) => m.id === monthId);
+    if (!month) return null;
+    return { course, month };
+  },
+  async getMonthTest(courseId, monthId) {
+    return fetchJSON(`data/courses/${courseId}/${monthId}/test.json`);
+  },
+
   async getAllReadyWeeks() {
     const manifest = await this.getManifest();
     const weeks = [];

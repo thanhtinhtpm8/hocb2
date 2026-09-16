@@ -65,6 +65,25 @@ export async function renderProgress(root) {
   }
   root.appendChild(weekCard);
 
+  const manifest = await Data.getManifest();
+  const monthsWithTest = manifest.courses[0].months.filter((m) => m.hasTest);
+  if (monthsWithTest.length) {
+    root.appendChild(el("div", { class: "section-heading" }, "Test cuối tháng"));
+    const testCard = el("div", { class: "card", style: "padding: 6px 16px;" });
+    monthsWithTest.forEach((m) => {
+      const monthPath = `courses/${manifest.courses[0].id}/${m.id}`;
+      const s = Store.getScore(monthPath, "month-test");
+      testCard.appendChild(el("div", { style: "padding:12px 0;border-bottom:1px solid var(--border);" }, [
+        el("div", { style: "display:flex;justify-content:space-between;font-size:13.5px;margin-bottom:6px;" }, [
+          el("a", { href: `#/course/${manifest.courses[0].id}/${m.id}/test` }, `📝 ${m.title}`),
+          el("b", {}, s ? s.percent + "%" : "Chưa làm"),
+        ]),
+        el("div", { class: "progress-bar-track" }, [el("div", { class: "progress-bar-fill", style: `width:${s ? s.percent : 0}%` })]),
+      ]));
+    });
+    root.appendChild(testCard);
+  }
+
   if (leechEntries.length) {
     root.appendChild(el("div", { class: "section-heading" }, "🩹 Từ hay quên (leech) — nên ôn lại"));
     const leechCard = el("div", { class: "card" });

@@ -4,6 +4,7 @@ import { el, esc } from "./ui.js";
 import { renderHome } from "./render-home.js";
 import { renderWeekHub, renderWeekPicker } from "./render-week.js";
 import { renderProgress } from "./render-progress.js";
+import { mountMonthTest } from "./render-test.js";
 
 const appEl = document.getElementById("app");
 const sidebarEl = document.getElementById("sidebar");
@@ -85,6 +86,18 @@ async function router() {
   appEl.scrollTo?.(0, 0);
 
   try {
+    if (parts[0] === "course" && parts[1] && parts[2] && parts[3] === "test") {
+      const [, courseId, monthId] = parts;
+      const found = await Data.findMonth(courseId, monthId);
+      if (!found || !found.month.hasTest) return renderNotFound();
+      const test = await Data.getMonthTest(courseId, monthId);
+      buildSidebar(null);
+      setBottomNavActive("home");
+      const monthPath = `courses/${courseId}/${monthId}`;
+      mountMonthTest(appEl, { test, monthPath });
+      return;
+    }
+
     if (parts[0] === "course" && parts[1] && parts[2] && parts[3]) {
       const [, courseId, monthId, weekId, tab] = parts;
       const found = await Data.findWeek(courseId, monthId, weekId);

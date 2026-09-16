@@ -18,6 +18,7 @@ function defaultState() {
     srs: {},         // key: `${weekPath}#${wordId}` -> {box, due, remembered}
     settings: { theme: "system" },
     lastVisitedWeek: null,
+    drafts: {},      // key: taskId -> free-text draft (writing tasks, etc.)
   };
 }
 
@@ -97,6 +98,12 @@ export const Store = {
       .slice(0, limit)
       .map(([k]) => k.split("#")[1]);
   },
+
+  saveDraft(taskId, text) {
+    state.drafts[taskId] = text;
+    persist();
+  },
+  getDraft(taskId) { return state.drafts[taskId] || ""; },
 
   setLastVisitedWeek(weekPath) {
     state.lastVisitedWeek = weekPath;

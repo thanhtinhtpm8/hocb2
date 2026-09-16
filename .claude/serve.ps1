@@ -33,6 +33,7 @@ while ($listener.IsListening) {
       $ct = $mime[$ext]
       if (-not $ct) { $ct = "application/octet-stream" }
       $res.ContentType = $ct
+      $res.Headers.Add("Cache-Control", "no-store")
       $bytes = [System.IO.File]::ReadAllBytes($fsPath)
       $res.ContentLength64 = $bytes.Length
       $res.OutputStream.Write($bytes, 0, $bytes.Length)
